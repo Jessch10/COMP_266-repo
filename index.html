@@ -1,46 +1,55 @@
 <!DOCTYPE html>
-<html lang="en-CA">
-<html>
-
+<html lang ="en">
 <head>
-	
-<title>Jadedlashed</title>
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jadedlashed</title>
+  <style>
+    .flex-container {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      background-color: dodgerblue;
+    }
+    .flex-container > div {
+      background-color: #f1f1f1;
+      margin: 10px;
+      padding: 20px;
+      font-size: 30px;
+    }
+  </style>
 </head>
 
-<body style="background-color: whitesmoke;">
+<nav>
+  
+</nav>
+<body>
+  <div class="flex-container">
+    <div>1</div>
+    <div style="align-self: center">hello</div>
+    <div>3</div>
+    <div>4</div>
+    <div>5</div>
+    <div>6</div>
+    <div style="align-self: flex-end">7</div>
+    <div>8</div>
+    <div>9</div>
+    <div>10</div>
+  </div>
+    <h1>Welcome to Jadedlashed lash studio</h1>
+    <p>Enhance your natural beauty with our high-quality eyelash extensions.
+    Our experieced techician will give you the perfect look you desire.</p>
+    <p>Contact us to book an appointment!</p>
+    <script>
+      const button = document.getElementById('colorButton');
+    const colors = ['#FF4136', '#2ECC40', '#FF851B', 'B10DC9'];
 
-	
-
-<img src="lash.jpg" width="500" height="300" alt="Picture of false lashes">
-<a href="https://www.w3schools.com">Visit W3Schools</a>
-
-<h1 title="My First Tooltip">My First Heading</h1>
-
-
-<pre style="background-color: red; color:white; font-family:verdana; font-size:200%;">
-My first paragraph
-another line   
-and then some over her    
-and wayover here 
-another line
-</pre>
-
-
-<hr>
-<h4 title="My First Tooltip">My Second Heading</h1>
-<p>
-	this is a second parahraph.
-
-</p>
-<hr>
-
-
-
-
-
-
+    button.addEventListener('click', () => {
+      const randomColor = colors[Math.floor(Math.floor() * colors.length)];
+      document.body.style.backgroundColor = randomColor;
+    }); // add JavaScript functionality here
+      // for example, form validation or dymamic content
+    </scipt>
+  </div>
 </body>
-
 </html>
-
