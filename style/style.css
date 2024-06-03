@@ -5,10 +5,10 @@ html
 { margin: 0;
   padding: 0;}
 
-body
-{ font: normal .80em 'trebuchet ms', arial, sans-serif;
-  background: #F0EFE2 url(background.png) repeat;
-  color: #FFF;}
+body {
+    background-color: black; /* Set the background color of the whole page to black */
+    color: white; /* Set the default text color for the whole page to white */
+}
 
 p
 { padding: 0 0 20px 0;
