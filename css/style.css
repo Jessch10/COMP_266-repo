@@ -6,6 +6,10 @@ nav {
   background-color: #000000; /* Example background color */
 }
 
+p {
+  color: white;
+}
+
 ul {
   list-style-type: none; /* Remove default bullets */
   box-shadow: 8px 8px 20px rgba(255, 255, 255, 0.2),   /* First shadow */
