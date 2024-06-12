@@ -1,6 +1,6 @@
 # COMP_266-repo
 
+![family-guy-css](https://github.com/Jessch10/COMP_266-repo/assets/169975542/8671e61f-8736-4d25-a487-de01bc10a7f5)
 
-![head-nod](https://github.com/Jessch10/COMP_266-repo/assets/169975542/42c57c2e-52b7-4774-a71c-faa0b1dc2c45)
 
 
