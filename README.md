@@ -1,8 +1,9 @@
 # COMP_266-repo
-Website for COMP 266 
 
-This website is for an eyelash extension buisness. 
+![family-guy-css](https://github.com/Jessch10/COMP_266-repo/assets/169975542/8671e61f-8736-4d25-a487-de01bc10a7f5)
 
-## Subheader
 
-Watch tutorial on using git on bash
+
+## 
+
+gif by https://github.com/jglovier
