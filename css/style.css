@@ -1,53 +1,48 @@
-
 body {
-    background-color: #2d2d2d;
+    font-family: sans-serif;
 }
-nav {
-  background-color: #000000; /* Example background color */
-}
-
 p {
-  color: white;
+    border: 2px solid black;
+}
+header {
+    background-color: #black; 
+    color: #white; 
 }
 
-ul {
-  list-style-type: none; /* Remove default bullets */
-  box-shadow: 8px 8px 20px rgba(255, 255, 255, 0.2),   /* First shadow */
-    -8px -8px 20px rgba(0, 0, 0, 0.3); /* Second shadow */
-  margin: 200;
-  padding: 0;
-  overflow: hidden;
+nav ul {
+    list-style: none; 
+    padding: 0; 
+    margin: 0; 
+    display: flex; 
+    justify-content: space-around; 
+}
+nav a {
+    color: #white;
+    text-decoration: none;
 }
 
-li {
-  float: right; /* Make list items float to create horizontal layout */
+.hero {
+    /* Background image, text styles */
 }
 
-li a {
-  display: block;
-  color: white; /* Example text color */
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-li a:hover {
-  background-color: #111; /* Example hover effect */
-}
-
-.content{
-    height: 100%;
-}
-
-.grid-container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr); /* 3 equal-width columns */
-    grid-gap: 20px; /* Space between items */
-}
-
-.grid-item {
-    background-color: #f2f2f2; /* Example background color */
-    padding: 20px;
-    border: 1px solid #ddd;
+.about {
     text-align: center;
+}
+
+.logo {
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #black; 
+    color: #white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.social a {
+    color: white;
+    margin: 0 10px;
+    font-size: 1.5rem;
 }
